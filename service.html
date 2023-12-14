@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/Spotify_icon.png" type="">
+
+  <title> DATA 303 FINAL </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              DATA 303 FINAL 
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="service.html">Song Traits<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Rankings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://nbviewer.org/github/emxee333/SpotifyStreamPage/blob/c401248fd1de303737e19c0fba31a785db82d097/model.ipynb#">Regression Model</a>
+              </li>
+              <li class="nav-item">
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    </div>
+
+    <section class="service_section layout_padding">
+        <div class="container ">
+          <div class="heading_container heading_center">
+            <h2>
+              Exploring the <span> attributes</span> of top songs
+            </h2>
+            <p>
+              Click on the buttons below to learn about different traits and characteristics of the top 2023 songs!
+            </p>
+            <br>
+            <br>
+        <div class="container ">
+          <details>
+            <summary>
+              What are the variables being used?
+              <span class="icon">👇</span>
+            </summary>
+            <p>
+              <li><b>streams</b>: Total number of streams on Spotify
+              </li><li><b>track_name</b>: Name of the song
+              </li>
+              <li><b>artist(s)_name</b>: Name of the artist(s) of the song
+              </li>
+              </li><li><b>in_spotify_playlists</b>: Number of Spotify playlists the song is included in
+              </li><li><b>in_spotify_charts</b>: Presence and rank of the song on Spotify charts
+              </li><li><b>in_apple_playlists</b>: Number of Apple Music playlists the song is included in
+              </li><li><b>in_apple_charts</b>: Presence and rank of the song on Apple Music charts
+              </li><li><b>in_deezer_playlists</b>: Number of Deezer playlists the song is included in
+              </li><li><b>in_deezer_charts</b>: Presence and rank of the song on Deezer charts
+              </li><li><b>in_shazam_charts</b>: Presence and rank of the song on Shazam charts
+              </li><li><b>bpm</b>: Beats per minute, a measure of song tempo
+              </li><li><b>key</b>: Key of the song
+              </li><li><b>mode</b>: Mode of the song (major or minor)
+              </li><li><b>danceability_%</b>: Percentage indicating how suitable the song is for dancing
+              </li><li><b>valence_%</b>: Positivity of the song's musical content
+              </li><li><b>energy_%</b>: Perceived energy level of the song
+              </li><li><b>acousticness_%</b>: Amount of acoustic sound in the song
+              </li><li><b>instrumentalness_%</b>: Amount of instrumental content in the song
+              </li><li><b>liveness_%</b>: Presence of live performance elements
+              </li><li><b>speechiness_%</b>: Amount of spoken words in the song</li>
+            </p>
+          </details>
+          </div>
+        </div>
+    </section>
+
+    <!-- slider section -->
+    <section class="service_section layout_padding">
+      <div class="container ">
+        <div class='tableauPlaceholder' id='viz1702250647183' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ok&#47;okay_17022337674370&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='okay_17022337674370&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ok&#47;okay_17022337674370&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702250647183');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+       </div>
+      </div>
+    </section>
+ 
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
